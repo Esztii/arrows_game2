@@ -9,30 +9,32 @@
 </head>
 <body>
     <div class="box">
-        <h2>DISPLAY_PLACEHOLDER</h2>
+        <h2 id="text">DISPLAY_PLACEHOLDER</h2>
     </div>
     <div class="nyilak">
         <div>
-            <button class="fel">
+            <button onclick="upbutton()" class="fel" id="arrows-up">
                 <img src="img/arrow-up.svg" alt="arrow-up.svg">
             </button>
         </div>
         <div>
-            <button class="bal">
+            <button onclick="leftbutton()" class="bal" id="arrows-left">
                 <img src="img/arrow-left.svg" alt="arrow-left.svg">
             </button>
-            <button class="le">
+            <button onclick="downbutton()" class="le" id="arrows-down">
                 <img src="img/arrow-down.svg" alt="arrow-down.svg">
             </button>
-            <button class="jobb">
+            <button onclick="rightbutton()" class="jobb" id="arrows-right">
                 <img src="img/arrow-right.svg" alt="arrow-right.svg">
             </button>
         </div>
     </div>
     
     <div class="startstop">
-        <button class="start">Start</button>
-        <button class="stop">Stop</button>
+        <button onclick="startgame()" class="start">Start</button>
+        <button onclick="stopgame()" class="stop">Stop</button>
     </div>
+
+
 </body>
 </html>
