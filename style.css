@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box{
+    border: 1px solid black;
+    margin: 20% auto 2% auto;
+    width: 30%;
+}
+.nyilak button{
+    width: 6rem;
+    height: 4rem;
+    margin: 0.3rem;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    border: 0.5px solid rgb(168, 168, 168);
+}
+.startstop button{
+    margin: 1%;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    width: 4rem;
+    height: 3rem;
+    color: white;
+}
+.start{
+    background-color: green;
+}
+.stop{
+    background-color: red;
+}
